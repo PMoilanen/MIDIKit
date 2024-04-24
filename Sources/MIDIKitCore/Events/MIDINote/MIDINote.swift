@@ -10,7 +10,7 @@ import Foundation
 ///
 /// Constructors and properties allow getting and setting by raw value, note name & octave, or
 /// string representation.
-public struct MIDINote: Equatable, Hashable {
+public struct MIDINote: Equatable, Hashable, Codable {
     // MARK: - Constants
     
     /// MIDI note number.

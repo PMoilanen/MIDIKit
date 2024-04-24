@@ -8,7 +8,7 @@ import Foundation
 
 extension MIDINote {
     /// MIDI note naming style (octave offset).
-    public enum Style: Equatable, Hashable, CaseIterable {
+    public enum Style: Equatable, Hashable, CaseIterable, Codable {
         /// Yamaha (Middle C == C3)
         ///
         /// Yamaha traditionally chose "C3" to represent MIDI note 60 (Middle C).
